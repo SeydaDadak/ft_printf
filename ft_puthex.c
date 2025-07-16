@@ -6,7 +6,7 @@
 /*   By: sdadak <sdadak@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 21:42:33 by sdadak            #+#    #+#             */
-/*   Updated: 2025/07/16 14:46:02 by sdadak           ###   ########.fr       */
+/*   Updated: 2025/07/16 18:51:02 by sdadak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int	ft_puthex(unsigned long nb, int c)
 	char	*base;
 
 	count = 0;
-	if (c == 'x')
-		base = "0123456789abcdef";
+	base = "0123456789abcdef";
 	if (c == 'X')
 		base = "0123456789ABCDEF";
 	if (nb > 15)
