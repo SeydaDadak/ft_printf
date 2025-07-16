@@ -6,7 +6,7 @@
 /*   By: sdadak <sdadak@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 16:40:27 by sdadak            #+#    #+#             */
-/*   Updated: 2025/07/16 14:45:36 by sdadak           ###   ########.fr       */
+/*   Updated: 2025/07/16 15:23:42 by sdadak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_putstr(char *str)
 	count = 0;
 	i = 0;
 	if (!str)
-		return (count+= write(1, (null), 6));
+		return (count+= write(1, "(null)", 6));
 	while (str[i])
 		count += write(1, &str[i++], 1);
 	return (count);
