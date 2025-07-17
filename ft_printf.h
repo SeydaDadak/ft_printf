@@ -6,7 +6,7 @@
 /*   By: sdadak <sdadak@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 14:47:46 by sdadak            #+#    #+#             */
-/*   Updated: 2025/07/16 12:51:57 by sdadak           ###   ########.fr       */
+/*   Updated: 2025/07/17 16:43:02 by sdadak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 
-int	ft_printf(const char *format, ...);
+int	ft_printf(const char *str, ...);
 int	ft_putchar(int c);
 int	ft_putstr(char *str);
 int	ft_putnbr(int a);
