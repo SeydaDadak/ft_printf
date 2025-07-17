@@ -6,7 +6,7 @@
 /*   By: sdadak <sdadak@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 14:52:39 by sdadak            #+#    #+#             */
-/*   Updated: 2025/07/16 18:51:58 by sdadak           ###   ########.fr       */
+/*   Updated: 2025/07/17 12:17:33 by sdadak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	ft_type(va_list arg, int a)
 	else if (a == 'u')
 		count += ft_putsigned(va_arg(arg, unsigned int));
 	else if (a == 'x' || a == 'X')
-		count += ft_puthex((unsigned int)va_arg(arg, unsigned long), a);
+		count += ft_puthex(va_arg(arg, unsigned int), a);
 	return (count);
 }
 
